@@ -1,14 +1,15 @@
 *{padding: 0%;
 margin: 0%;
-
+box-sizing: border-box;
 }
 *body{
-  width: 340px;
+  overflow: hidden;
   
 }
 #hader{
     background: #0193c4;
-    width: 40ch;
+    width: 100%;
+    max-width: 500px;
     height: 4ch;
     display: flex;
    justify-content: center;
@@ -21,21 +22,28 @@ margin: 0%;
    margin-top: 1ch;
 }
 #logo img{
-    width: 127px;
+    max-width: 160px;
+    width: 100%;
 }
 .serch i{
-    margin-left: 2ch;
+    margin-left: 1ch;
+    font-size: 19px;
 }
 .serch input{
-  width: 90px;
-  
+  max-width: 150px;
+  height: auto;
+ width: 100px;
+ flex: 1;
+ 
+
 }
 #line{
-    margin-left: 5ch;
+    margin-left: 1ch;
 }
 #main2 img{
-    width: 40ch;
+    max-width: 500px;
     margin-top: 1ch;
+    width: 100%;
 }
 #COURS{
     display: flex;
@@ -46,21 +54,26 @@ margin: 0%;
     margin-left: 8ch;
 }
 #texthero{
-  
+  padding: 10px 20px;
+  margin: 0 auto;
    margin-top: 1ch;
- margin-left: 1ch;
+   text-align: center;
+   font-size: 13px;
+
     color: rgb(0, 0, 0);
     background-color: rgba(83, 5, 155, 0.147);
-    width: 38ch;
+    width: 100%;
+    max-width: 500px;
     border-radius: 1ch;
 }
 #bca {
     font-size: small;
     margin-top: 2ch;
-    margin-left: 2ch;
+    
 }
 .gaptext{
-    margin-left: 8ch;
+    margin: 0 auto;
+   
     font-size: small;
     margin-top: 2ch;
     border:solid black ;
@@ -69,13 +82,14 @@ margin: 0%;
     
 }
 #imgadd img{
-    width: 40ch;
-    
+   max-width: 500px;
+    height: auto;
     margin-top: 1ch;
+    width: 100%;
 }
 #bca h2 {
     background: #0083e790;
-    width: 5ch;
+    max-width: 500px;
     border: solid;
 
 }
@@ -88,7 +102,7 @@ margin: 0%;
    background: #ca0303;
    color: aliceblue;
    margin-top: 2ch;
-   width: 40ch;
+   max-width: 500px;
    
 }
 #box1{
@@ -135,3 +149,4 @@ margin: 0%;
 }
 .jojo{margin-left: 1ch;
 }
+
